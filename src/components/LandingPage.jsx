@@ -1,6 +1,7 @@
 import listData from "./data/data"
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
+import img01 from '../../public/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png'
 
 function LandingPage() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -76,7 +77,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="secondHalf">
-          <img className="picOpacity" src="/public/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png" alt="" />
+          <img className="picOpacity" src={img01} alt="" />
           <img className="picIndex" src="/public/Images/globe.png" alt="" />
           <img className="picIndex" src="/public/Images/metrix 1.png" alt="" />
         </div>
