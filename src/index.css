@@ -13,7 +13,7 @@
   background-color: #150E28;
 }
 .container{
-  background-image: url('/public/Purple-Lens-Flare-PNG.png');
+  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
   background-blend-mode: hard-light;
   background-position: -155.25px -155px;
   background-color: #150E28;
@@ -129,7 +129,7 @@
   position: relative;
   background-color: #150E28;
   background-blend-mode: hard-light;
-  background-image: url('/public/forFourthPart2.png');
+  background-image: url('/public/Images/forFourthPart2.png');
   background-position: 300px -300px;
   background-repeat: no-repeat;
 }
@@ -182,7 +182,7 @@
 }
 .thirdPart{
   width: 100%;
-  background-image: url('/public/Purple-Lens-Flare-PNG.png');
+  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
   display: flex;
   background-blend-mode: hard-light;
   background-color: #150E28;
@@ -212,7 +212,7 @@
   display: flex;
 }
 .judgingCriteria{
-  background-image: url('/public/forFourthPart2.png');
+  background-image: url('/public/Images/forFourthPart2.png');
   background-position: 200px 200px;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -223,7 +223,7 @@
   width: 50%;
 }
 .humanAnalysis{
-  background-image: url('/public/forFourthPart.png');
+  background-image: url('/public/Images/forFourthPart.png');
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -264,7 +264,7 @@
   justify-content: space-between;
 }
 .questionMarks{
-  background-image: url('/public/forFourthPart.png');
+  background-image: url('/public/Images/forFourthPart.png');
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -297,7 +297,7 @@
   width: 100%;
   display: flex;
   height: 100%;
-  background-image: url('/public/forFourthPart.png');
+  background-image: url('/public/Images/forFourthPart.png');
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -331,7 +331,7 @@
   height: 100%;
   margin-bottom: 100px;
   /* border: 3px solid green; */
-  background-image: url('/public/forFourthPart.png');
+  background-image: url('/public/Images/forFourthPart.png');
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -455,7 +455,7 @@
   align-items: center;
 }
 .seventhPart{
-  background-image: url('/public/Purple-Lens-Flare-PNG.png');
+  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
   display: flex;
   height: 100%;
   background-blend-mode: hard-light;
@@ -632,7 +632,7 @@
 }
 .policyImg{
   width: 45%;
-  background-image: url('/public/vector.png');
+  background-image: url('/public/Images/vector.png');
   background-repeat: no-repeat;
 }
 .manLock{
