@@ -2,6 +2,11 @@ import listData from "./data/data"
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import img01 from '../../public/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png'
+import img02 from '../../public/Images/Creative 1.png'
+import img03 from '../../public/Images/chain-9365116-7621444.png'
+import img04 from '../../public/Images/globe.png'
+import img05 from '../../public/Images/metrix 1.png'
+import img06 from '../../public/Images/globe.png'
 
 function LandingPage() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -46,10 +51,10 @@ function LandingPage() {
       <div className="topPart">
         <div className="firstHalf">
           <span className="holding">
-            <img className="creative" src="/public/Images/Creative 1.png" alt="" />
+            <img className="creative" src={img02} alt="" />
             <h1 className="subTitle" >getlinked Tech</h1>
             <h1 className="subTitle" >Hackathon <span className="linked">1.0</span></h1>
-            <img className="chain" src="/public/Images/chain-9365116-7621444.png" alt="" />
+            <img className="chain" src={img03} alt="" />
           </span>
           <span className="participateNote">
             <p >Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
@@ -78,8 +83,8 @@ function LandingPage() {
         </div>
         <div className="secondHalf">
           <img className="picOpacity" src={img01} alt="" />
-          <img className="picIndex" src="/public/Images/globe.png" alt="" />
-          <img className="picIndex" src="/public/Images/metrix 1.png" alt="" />
+          <img className="picIndex" src={img04} alt="" />
+          <img className="picIndex" src={img05} alt="" />
         </div>
       </div>
       <div className="line"></div>
