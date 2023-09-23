@@ -45,10 +45,10 @@ function LandingPage() {
       <div className="topPart">
         <div className="firstHalf">
           <span className="holding">
-            <img className="creative" src="../../public/Creative 1.png" alt="" />
+            <img className="creative" src="/public/Images/Creative 1.png" alt="" />
             <h1 className="subTitle" >getlinked Tech</h1>
             <h1 className="subTitle" >Hackathon <span className="linked">1.0</span></h1>
-            <img className="chain" src="../../public/chain-9365116-7621444.png" alt="" />
+            <img className="chain" src="/public/Images/chain-9365116-7621444.png" alt="" />
           </span>
           <span className="participateNote">
             <p >Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
@@ -76,15 +76,15 @@ function LandingPage() {
           </div>
         </div>
         <div className="secondHalf">
-          <img className="picOpacity" src="/public/man-wearing-smart-glasses-touching-virtual-screen 1.png" alt="" />
-          <img className="picIndex" src="/public/globe.png" alt="" />
-          <img className="picIndex" src="/public/metrix 1.png" alt="" />
+          <img className="picOpacity" src="/public/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png" alt="" />
+          <img className="picIndex" src="/public/Images/globe.png" alt="" />
+          <img className="picIndex" src="/public/Images/metrix 1.png" alt="" />
         </div>
       </div>
       <div className="line"></div>
       <div className="secondPart">
         <div className="theBigIdea">
-          <img src="../../public/the big idea 1.png" alt="" />
+          <img src="/public/Images/the big idea 1.png" alt="" />
         </div>
         <div className="introducionText">
           <span>
@@ -104,13 +104,13 @@ function LandingPage() {
           </span>
         </div>
         <div className="theBigIdea">
-          <img src="../../public/7450159 1.png" alt="" />
+          <img src="/public/Images/7450159 1.png" alt="" />
         </div>
       </div>
       <div className="line"></div>
       <div className="fourthPart">
         <div className="humanAnalysis">
-          <img src="../../public/8046554 1.png" alt="" />
+          <img src="/public/Images/8046554 1.png" alt="" />
         </div>
         <div className="judgingCriteria">
           <span>
@@ -134,32 +134,32 @@ function LandingPage() {
           <span className="asked">
             <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/plusIcon.png" alt="" />
+            <img src="/public/Images/plusIcon.png" alt="" />
           </span>
           <div className="lined"></div>
           </span>
@@ -169,7 +169,7 @@ function LandingPage() {
             <h1 className="questionMark">?</h1>
             <h1 className="questionMark questionMark2">?</h1>
             <h1 className="questionMark questionMark3">?</h1>
-            <img width={'100%'} height={'741px'} src="../../public/overThinker.png" alt="" />
+            <img width={'100%'} height={'741px'} src="/public/Images/overThinker.png" alt="" />
           </span>
         </div>
       </div>
@@ -253,7 +253,7 @@ function LandingPage() {
       </div>
       <div className="seventhPart">
         <div className="trophy">
-          <img src="../../public/trophy.png" alt="" />
+          <img src="/public/Imagestrophy.png" alt="" />
         </div>
         <div className="prizes">
           <span className="prize">
@@ -263,19 +263,19 @@ function LandingPage() {
           </span>
           <div className="rewards">
             <div className="secondWinner">
-              <img className="secondPrize" src="../../public/silver_medal 1.png" alt="" />
+              <img className="secondPrize" src="/public/Images/silver_medal 1.png" alt="" />
               <p>2nd</p>
               <p>Runner</p>
               <p>N300,000</p>
             </div>
             <div className="firstWinner">
-              <img className="firstPrize" src="../../public/gold_medal 1.png" alt="" />
+              <img className="firstPrize" src="/public/Images/gold_medal 1.png" alt="" />
               <p>1st</p>
               <p>Runner</p>
               <p>N400,000</p>
             </div>
             <div className="secondWinner">
-              <img className="secondPrize" src="../../public/bronze_medal 1.png" alt="" />
+              <img className="secondPrize" src="/public/Images/bronze_medal 1.png" alt="" />
               <p>3rd</p>
               <p>Runner</p>
               <p>N150,000</p>
@@ -288,29 +288,29 @@ function LandingPage() {
         <p className="participateNote">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
         <div className="sponsors">
           <span className="sporsorsLogo">
-            <img src="../../public/Liberty company logo white colour.png" alt="" />
+            <img src="/public/Images/Liberty company logo white colour.png" alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span>
-            <img src="/public/Liberty company logo white.png" alt="" />
+            <img src="/public/Images/Liberty company logo white.png" alt="" />
           </span>
           <span className="sporsorsLogo">
             <div className="verticalPipe"></div>
-            <img src="/public/Winwise logo White colour 1.png" alt="" />
+            <img src="/public/Images/Winwise logo White colour 1.png" alt="" />
           </span>
           <div className="horizontalPipe"></div>
           <div className="horizontalPipe"></div>
           <div className="horizontalPipe"></div>
           <span className="sporsorsLogo">
-            <img src="../../public/wisper logo white.png" alt="" />
+            <img src="/public/Images/wisper logo white.png" alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span className="sporsorsLogo">
-            <img src="/public/Paybox.png" alt="" />
+            <img src="/public/Images/Paybox.png" alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span className="sporsorsLogo">
-            <img src="/public/Vizual Plus.png" alt="" />
+            <img src="/public/Images/Vizual Plus.png" alt="" />
           </span>
         </div>
       </div>
@@ -335,7 +335,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="policyImg">
-          <img className="manLock" src="/public/manWithLock.png" alt="" />
+          <img className="manLock" src="/public/Images/manWithLock.png" alt="" />
         </div>
       </div>
     </div>

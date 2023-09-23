@@ -90,24 +90,24 @@ function RegisterPage() {
     <div className='reg'>
       <div className="registeration">
         <div className='regImg'>
-          <img className='starReg2' src="../../public/starReg2.png" alt="" />
-          <img className='starReg3' src="../../public/starReg3.png" alt="" />
-          <img className='starReg4' src="../../public/starReg.png" alt="" />
-          <img width={'100%'} src="../../public/regImg.png" alt="" />
+          <img className='starReg2' src="/public/Images/starReg2.png" alt="" />
+          <img className='starReg3' src="/public/Images/starReg3.png" alt="" />
+          <img className='starReg4' src="/public/Images/starReg.png" alt="" />
+          <img width={'100%'} src="/public/Images/regImg.png" alt="" />
         </div>
         <div className="regForm">
           <div className='formWrapper'>
-            <img className='starReg' src="../../public/starReg.png" alt="" />
+            <img className='starReg' src="/public/Images/starReg.png" alt="" />
             <div className="formContainer">
               <h1 className="subTitle2 linked">Register</h1>
               <span className='movement'>
                 <p className='beTheMov'>Be part of this movement!</p>
                 <span className='movement2'>
                   <span className='movement3'>
-                    <img src="../../public/ladyWalking.png" alt="" />
-                    <img src="../../public/manWalking.png" alt="" />
+                    <img src="/public/Images/ladyWalking.png" alt="" />
+                    <img src="/public/Images/manWalking.png" alt="" />
                   </span>
-                  <img src="../../public/Line 9.png" alt="" />
+                  <img src="/public/Images/Line 9.png" alt="" />
                 </span>
               </span>
               <h1 className='createAcc'>CREATE YOUR ACCOUNT</h1>
@@ -196,8 +196,8 @@ function RegisterPage() {
           <div className="modal-content">
             <span className="close" onClick={closeModal}>&times;</span>
             <span>
-              <img className='modalPic2' src="/public/successful-man-3025713-2526911 1.png" alt="Modal Image" />
-              <img className='modalPic' src="/public/successfully-done-5108472-4288033 1.png" alt="Modal Image" />
+              <img className='modalPic2' src="/public/Images/successful-man-3025713-2526911 1.png" alt="Modal Image" />
+              <img className='modalPic' src="/public/Images/successfully-done-5108472-4288033 1.png" alt="Modal Image" />
             </span>
             <span className='marg'></span>
             <h1 className='createAcc'>Congratulations</h1>
