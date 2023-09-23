@@ -335,7 +335,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="policyImg">
-          <img className="manLock" src="/public/Images/manWithLock.png" alt="" />
+          <img className="manLock" src={"/public/Images/manWithLock.png"} alt="" />
         </div>
       </div>
     </div>
