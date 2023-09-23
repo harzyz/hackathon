@@ -650,7 +650,7 @@
   background: rgba(217, 217, 217, 0.03);
 }
 .listing{
-  list-style: square inside url("/public/listTerms.png");
+  list-style: square inside url("/public/Images/listTerms.png");
 }
 .paragraphs{
   width: 300px;

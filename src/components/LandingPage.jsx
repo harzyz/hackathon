@@ -6,7 +6,23 @@ import img02 from '../../public/Images/Creative 1.png'
 import img03 from '../../public/Images/chain-9365116-7621444.png'
 import img04 from '../../public/Images/globe.png'
 import img05 from '../../public/Images/metrix 1.png'
-import img06 from '../../public/Images/globe.png'
+import img06 from '../../public/Images/the big idea 1.png'
+import img07 from '../../public/Images/7450159 1.png'
+import img08 from '../../public/Images/8046554 1.png'
+import img09 from '../../public/Images/plusIcon.png'
+import img10 from '../../public/Images/overThinker.png'
+import img11 from '../../public/Images/trophy.png'
+import img12 from '../../public/Images/silver_medal 1.png'
+import img13 from '../../public/Images/gold_medal 1.png'
+import img14 from '../../public/Images/bronze_medal 1.png'
+import img15 from '../../public/Images/Liberty company logo white colour.png'
+import img16 from '../../public/Images/Liberty company logo white.png'
+import img17 from '../../public/Images/Winwise logo White colour 1.png'
+import img18 from '../../public/Images/wisper logo white.png'
+import img19 from '../../public/Images/Paybox.png'
+import img20 from '../../public/Images/Vizual Plus.png'
+import img21 from '../../public/Images/manWithLock.png'
+
 
 function LandingPage() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -90,7 +106,7 @@ function LandingPage() {
       <div className="line"></div>
       <div className="secondPart">
         <div className="theBigIdea">
-          <img src="/public/Images/the big idea 1.png" alt="" />
+          <img src={img06} alt="" />
         </div>
         <div className="introducionText">
           <span>
@@ -110,13 +126,13 @@ function LandingPage() {
           </span>
         </div>
         <div className="theBigIdea">
-          <img src="/public/Images/7450159 1.png" alt="" />
+          <img src={img07} alt="" />
         </div>
       </div>
       <div className="line"></div>
       <div className="fourthPart">
         <div className="humanAnalysis">
-          <img src="/public/Images/8046554 1.png" alt="" />
+          <img src={img08}alt="" />
         </div>
         <div className="judgingCriteria">
           <span>
@@ -140,32 +156,32 @@ function LandingPage() {
           <span className="asked">
             <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           <span className="frequently">
             <p>Can I work on a project I started before the hackathon?</p>
-            <img src="/public/Images/plusIcon.png" alt="" />
+            <img src={img09} alt="" />
           </span>
           <div className="lined"></div>
           </span>
@@ -175,7 +191,7 @@ function LandingPage() {
             <h1 className="questionMark">?</h1>
             <h1 className="questionMark questionMark2">?</h1>
             <h1 className="questionMark questionMark3">?</h1>
-            <img width={'100%'} height={'741px'} src="/public/Images/overThinker.png" alt="" />
+            <img width={'100%'} height={'741px'} src={img10} alt="" />
           </span>
         </div>
       </div>
@@ -259,7 +275,7 @@ function LandingPage() {
       </div>
       <div className="seventhPart">
         <div className="trophy">
-          <img src="/public/Imagestrophy.png" alt="" />
+          <img src={img11} alt="" />
         </div>
         <div className="prizes">
           <span className="prize">
@@ -269,19 +285,19 @@ function LandingPage() {
           </span>
           <div className="rewards">
             <div className="secondWinner">
-              <img className="secondPrize" src="/public/Images/silver_medal 1.png" alt="" />
+              <img className="secondPrize" src={img12} alt="" />
               <p>2nd</p>
               <p>Runner</p>
               <p>N300,000</p>
             </div>
             <div className="firstWinner">
-              <img className="firstPrize" src="/public/Images/gold_medal 1.png" alt="" />
+              <img className="firstPrize" src={img13} alt="" />
               <p>1st</p>
               <p>Runner</p>
               <p>N400,000</p>
             </div>
             <div className="secondWinner">
-              <img className="secondPrize" src="/public/Images/bronze_medal 1.png" alt="" />
+              <img className="secondPrize" src={img14} alt="" />
               <p>3rd</p>
               <p>Runner</p>
               <p>N150,000</p>
@@ -294,29 +310,29 @@ function LandingPage() {
         <p className="participateNote">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
         <div className="sponsors">
           <span className="sporsorsLogo">
-            <img src="/public/Images/Liberty company logo white colour.png" alt="" />
+            <img src={img15} alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span>
-            <img src="/public/Images/Liberty company logo white.png" alt="" />
+            <img src={img16} alt="" />
           </span>
           <span className="sporsorsLogo">
             <div className="verticalPipe"></div>
-            <img src="/public/Images/Winwise logo White colour 1.png" alt="" />
+            <img src={img17} alt="" />
           </span>
           <div className="horizontalPipe"></div>
           <div className="horizontalPipe"></div>
           <div className="horizontalPipe"></div>
           <span className="sporsorsLogo">
-            <img src="/public/Images/wisper logo white.png" alt="" />
+            <img src={img18} alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span className="sporsorsLogo">
-            <img src="/public/Images/Paybox.png" alt="" />
+            <img src={img19} alt="" />
             <div className="verticalPipe"></div>
           </span>
           <span className="sporsorsLogo">
-            <img src="/public/Images/Vizual Plus.png" alt="" />
+            <img src={img20} alt="" />
           </span>
         </div>
       </div>
@@ -341,7 +357,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="policyImg">
-          <img className="manLock" src={"/public/Images/manWithLock.png"} alt="" />
+          <img className="manLock" src={img21} alt="" />
         </div>
       </div>
     </div>
