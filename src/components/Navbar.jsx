@@ -1,7 +1,15 @@
 import PropTypes from 'prop-types'
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar({styleContact}) {
+  const [bgBtn, setBgBtn] = useState(false)
+
+  const handlebgBtn = () => {
+    setBgBtn(true)
+  }
+  
+
   return (
     <nav className="header">
       <Link to='/'><h1>get<span className="linked">linked</span></h1></Link>
@@ -10,7 +18,7 @@ function Navbar({styleContact}) {
         <a href="#overview"><p>Overview</p></a>
         <p>FAQs</p>
         <Link to='/contact'><p className={styleContact ? 'contact' : ''}>Contact</p></Link>
-        <Link to='/register'><button className="registerBtn">Register</button></Link>
+        <Link to='/register'><button onClick={handlebgBtn} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
       </div>
       <span className="hamburger">
       <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">

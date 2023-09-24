@@ -22,6 +22,8 @@ import img18 from '../../public/Images/wisper logo white.png'
 import img19 from '../../public/Images/Paybox.png'
 import img20 from '../../public/Images/Vizual Plus.png'
 import img21 from '../../public/Images/manWithLock.png'
+import img22 from '../../public/Images/lit.png'
+import img23 from '../../public/Images/starReg.png'
 
 
 function LandingPage() {
@@ -64,46 +66,50 @@ function LandingPage() {
           </svg>
         </span>
       </div>
-      <div className="topPart">
-        <div className="firstHalf">
-          <span className="holding">
-            <img className="creative" src={img02} alt="" />
-            <h1 className="subTitle" >getlinked Tech</h1>
-            <h1 className="subTitle" >Hackathon <span className="linked">1.0</span></h1>
-            <img className="chain" src={img03} alt="" />
-          </span>
-          <span className="participateNote">
-            <p >Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
-          </span>
-          <Link to='/register'><button className="registerBtn">Register</button></Link>
-          <div className="countdownTimer">
-            <div className="countdown">
-              <div className="countdown-item">
-                <h1>{countdown.days}</h1>
-                <p>D</p>
-              </div>
-              <div className="countdown-item">
-                <h1>{countdown.hours}</h1>
-                <p>H</p>
-              </div>
-              <div className="countdown-item">
-                <h1>{countdown.minutes}</h1>
-                <p>M</p>
-              </div>
-              <div className="countdown-item">
-                <h1>{countdown.seconds}</h1>
-                <p>S</p>
+        <div className="topPart">
+          <div className="firstHalf">
+            <span className="holding">
+              <img className="creative" src={img02} alt="" />
+              <h1 className="subTitle" >getlinked Tech</h1>
+              <h1 className="subTitle" >Hackathon <span className="linked">1.0</span></h1>
+              <img className="chain" src={img03} alt="" />
+            </span>
+            <span className="makeLeft">
+            <span className="participateNote">
+              <p>Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+            </span>
+            <Link to='/register'><button className="registerBtn">Register</button></Link>
+            <div className="countdownTimer">
+              <div className="countdown">
+                <div className="countdown-item">
+                  <h1>{countdown.days}</h1>
+                  <p>D</p>
+                </div>
+                <div className="countdown-item">
+                  <h1>{countdown.hours}</h1>
+                  <p>H</p>
+                </div>
+                <div className="countdown-item">
+                  <h1>{countdown.minutes}</h1>
+                  <p>M</p>
+                </div>
+                <div className="countdown-item">
+                  <h1>{countdown.seconds}</h1>
+                  <p>S</p>
+                </div>
               </div>
             </div>
+            </span>
+          </div>
+          <div className="secondHalf">
+            <img className="lit" src={img22} alt="" />
+            <img className="picOpacity" src={img01} alt="" />
+            <img className="picIndex" src={img04} alt="" />
+            <img className="picIndex" src={img05} alt="" />
+            <img className="starFirstPart" src={img23} alt="" />
           </div>
         </div>
-        <div className="secondHalf">
-          <img className="picOpacity" src={img01} alt="" />
-          <img className="picIndex" src={img04} alt="" />
-          <img className="picIndex" src={img05} alt="" />
-        </div>
-      </div>
-      <div className="line"></div>
+        <div className="line"></div>
       <div className="secondPart">
         <div className="theBigIdea">
           <img src={img06} alt="" />

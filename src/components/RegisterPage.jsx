@@ -1,5 +1,14 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import img01 from '../../public/Images/regImg.png'
+import img02 from '../../public/Images/starReg2.png'
+import img03 from '../../public/Images/starReg3.png'
+import img04 from '../../public/Images/starReg.png'
+import img05 from '../../public/Images/ladyWalking.png'
+import img06 from '../../public/Images/manWalking.png'
+import img07 from '../../public/Images/Line 9.png'
+import img08 from '../../public/Images/successful-man-3025713-2526911 1.png'
+import img09 from '../../public/Images/successfully-done-5108472-4288033 1.png'
 
 function RegisterPage() {
   const [options, setOptions] = useState([]);
@@ -90,24 +99,24 @@ function RegisterPage() {
     <div className='reg'>
       <div className="registeration">
         <div className='regImg'>
-          <img className='starReg2' src="/public/Images/starReg2.png" alt="" />
-          <img className='starReg3' src="/public/Images/starReg3.png" alt="" />
-          <img className='starReg4' src="/public/Images/starReg.png" alt="" />
-          <img width={'100%'} src="/public/Images/regImg.png" alt="" />
+          <img className='starReg2' src={img02} alt="" />
+          <img className='starReg3' src={img03} alt="" />
+          <img className='starReg4' src={img04} alt="" />
+          <img width={'100%'} src={img01} alt="" />
         </div>
         <div className="regForm">
           <div className='formWrapper'>
-            <img className='starReg' src="/public/Images/starReg.png" alt="" />
+            <img className='starReg' src={img04} alt="" />
             <div className="formContainer">
               <h1 className="subTitle2 linked">Register</h1>
               <span className='movement'>
                 <p className='beTheMov'>Be part of this movement!</p>
                 <span className='movement2'>
                   <span className='movement3'>
-                    <img src="/public/Images/ladyWalking.png" alt="" />
-                    <img src="/public/Images/manWalking.png" alt="" />
+                    <img src={img05} alt="" />
+                    <img src={img06} alt="" />
                   </span>
-                  <img src="/public/Images/Line 9.png" alt="" />
+                  <img src={img07} alt="" />
                 </span>
               </span>
               <h1 className='createAcc'>CREATE YOUR ACCOUNT</h1>
@@ -196,8 +205,8 @@ function RegisterPage() {
           <div className="modal-content">
             <span className="close" onClick={closeModal}>&times;</span>
             <span>
-              <img className='modalPic2' src="/public/Images/successful-man-3025713-2526911 1.png" alt="Modal Image" />
-              <img className='modalPic' src="/public/Images/successfully-done-5108472-4288033 1.png" alt="Modal Image" />
+              <img className='modalPic2' src={img08} alt="Modal Image" />
+              <img className='modalPic' src={img09} alt="Modal Image" />
             </span>
             <span className='marg'></span>
             <h1 className='createAcc'>Congratulations</h1>

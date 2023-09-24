@@ -49,6 +49,16 @@
   flex-direction: column;
   gap: 50px;
 }
+.bgBtn{
+  border: 2px solid #9A39FF;
+  background-color: black;
+  height: 53px;
+  width: 172px;
+  border-radius: 4px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16p
+}
 .line{
   border: 1px solid #ffffff2e;
   width: 99.8%;
@@ -100,6 +110,12 @@
   flex-direction: column;
   align-items: center;
 }
+.makeLeft{
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .subTitle{
   color: #FFF;
   font-family: Clash Display;
@@ -121,8 +137,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 33.2px;
-  width: 522px;
-  margin: 0 auto;
+  text-align: left;
+  width: 520px;
+  /* margin: 0 auto; */
 }
 .secondHalf{
   width: 50%;
@@ -130,22 +147,24 @@
   background-color: #150E28;
   background-blend-mode: hard-light;
   background-image: url('/public/Images/forFourthPart2.png');
-  background-position: 300px -300px;
+  background-position: 50px -400px;
   background-repeat: no-repeat;
 }
 .picOpacity{
   filter: hue-rotate(230deg);
+  width: 100%;
   /* filter: purple; */
 }
 .picIndex{
   z-index: 5;
   position: absolute;
   top: 0;
+  width: 100%;
   left: 0;
 }
-.secondHalf img{
+/* .secondHalf img{
   width: 100%;
-}
+} */
 .creative{
   position: absolute;
   left: 450px;
@@ -649,6 +668,19 @@
   border: 1px solid #D434FE;
   background: rgba(217, 217, 217, 0.03);
 }
+.lit{
+  position: absolute;
+  z-index: 7;
+  width: 58px;
+  height: 58px;
+  top: 30%;
+  left: 0;
+}
+.starFirstPart{
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
 .listing{
   list-style: square inside url("/public/Images/listTerms.png");
 }
@@ -726,9 +758,13 @@ a{
   text-decoration: none;
   color: inherit;
 }
+/* .topLine{
+  display: flex;
+  flex-direction: column;
+} */
 .countdown{
   gap: 10px;
-  margin-top: 80px;
+  margin-top: 20px;
   display: flex;
   color: #FFF;
   font-family: Unica One;
