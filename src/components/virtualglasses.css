@@ -1,0 +1,263 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+.revoText{
+  width: 100%;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-style: italic;
+  text-align: right;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.topPart{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.firstHalf{
+  width: 50%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.creative{
+  position: absolute;
+  left: 450px;
+  top: -50px;
+}
+.subTitle1{
+  position: relative;
+  color: #FFF;
+  font-family: Clash Display;
+  font-size: 70px;
+  font-weight: 700;
+}
+.subTitle2{
+  position: relative;
+  color: #FFF;
+  font-family: Clash Display;
+  font-size: 70px;
+  font-weight: 700;
+}
+.chain{
+  position: absolute;
+  left: 500px;
+  top: 0px;
+}
+.makeLeft{
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.participateNote{
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.2px;
+  text-align: left;
+  width: 520px;
+}
+.registerBtn{
+  height: 53px;
+  border: 0;
+  width: 172px;
+  border-radius: 4px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.countdown{
+  gap: 10px;
+  margin-top: 20px;
+  display: flex;
+  color: #FFF;
+  font-family: Unica One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+.countdown-item{
+  display: flex;
+  align-items: baseline;
+}
+.secondHalf{
+  margin-top: 30px;
+  height: 100%;
+  width: 50%;
+  /* background-size: cover; */
+  position: relative;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+  /* background-image: url('/public/Images/forFourthPart2.png'); */
+  background-position: 50px -400px;
+  background-repeat: no-repeat;
+}
+.lit{
+  position: absolute;
+  z-index: 7;
+  width: 58px;
+  height: 58px;
+  top: 30%;
+  left: 0;
+}
+.glare{
+  z-index: 6;
+  position: absolute;
+  top: 0px;
+  /* background-color: rgb(21, 14, 40, 0.4); */
+  /* background-blend-mode: hard-light; */
+  /* margin-top: -5px; */
+  width: 80%;
+  right: 0px;
+}
+.manIndex{
+  z-index: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  filter: hue-rotate(230deg);
+  width: 100%;
+}
+.litMobile{
+  display: none;
+}
+.picIndex{
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  left: 0;
+}
+.metrix{
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  left: 0;
+}
+.starFirstPart{
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+@media only screen and (max-width: 900px){
+  .revoText{
+    width: 100%; 
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+  }
+  .revoStroke{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .revoStroke svg{
+    width: 40%;
+  }
+  .holding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topPart{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .firstHalf{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .creative{
+    left: 200px;
+    top: -24px;
+    width: 25px;
+  }
+  .subTitle1{
+    position: relative;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 700;
+    height: 37px;
+    max-width: 240px;
+  }
+  .subTitle2{
+    position: relative;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 300px;
+    height: 37px;
+  }
+  .chain{
+    position: initial;
+    width: 25px;
+  }
+  .makeLeft{
+    align-items: center;
+    gap: 20px;
+  }
+  .litMobile{
+    /* position: absolute; */
+    display: inline;
+    z-index: 0;
+    width: 20px;
+    height: 20px;
+    top: 58px;
+    left: 310px;
+  }
+  .lit{
+    display: none;
+    z-index: 0;
+    width: 30px;
+    height: 30px;
+    top: -340px;
+    left: 260px;
+  }
+  .participateNote{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.2px;
+    text-align: center;
+    width: 300px;
+  }
+  .secondHalf{
+    height: 100%;
+    width: 100%;
+  }
+  .countdown{
+    font-size: 48px;
+    margin-top: 0px;
+  }
+  .registerBtn{
+    width: 96.35px;
+    height: 31.346px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,180 @@
+.lastPart{
+  padding-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.policy{
+  padding-left: 40px;
+  width: 60%;
+  align-items: center;
+  /* margin: 0 auto; */
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+.mt7{
+  margin-top: 20px;
+}
+.licensing{
+  color: #D434FE;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 216.4%; 34.624px */
+}
+.lastUpd{
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */ 
+}
+.policyHead{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.privacyNote{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  width: 435px;
+  line-height: 188.4%; /* 26.376px */ 
+}
+.policyContainer{
+  width: 80%;
+}
+.policyTerms{
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 50px; */
+  flex-direction: column;
+  /* align-items: center; */
+  height: 575px;
+  border-radius: 5px;
+  border: 1px solid #D434FE;
+  background: rgba(217, 217, 217, 0.03);
+}
+.policyWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: flex-start;
+}
+.paragraphs{
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.2px;
+  /* list-style: square inside url("/public/Images/listTerms.png"); */
+  width: 100%;
+  margin: 0 auto;
+}
+.paragraphs li{
+  border: 3px solid red;
+}
+.listWrapper{
+  display: flex;
+  /* align-items: center; */
+}
+.listItems{
+  /* margin-top: -5px; */
+  padding-left: 15px;
+}
+.listing{
+  padding-top: 7px;
+}
+.policyImg{
+  width: 40%;
+  background-image: url('/public/Images/vector.png');
+  background-repeat: no-repeat;
+}
+.manLock{
+  margin-top: 200px;
+  width: 100%;
+}
+@media only screen and (max-width: 700px){
+  .lastPart{
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+  }
+  .policy{
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .policyContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .policyWrapper{
+    width: 78%;
+    align-items: center;
+  }
+  .privacyNote{
+    width: 289px;
+  }
+  .licensingControl{
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height:  28.132px; */
+  }
+  .paragraphs{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25.968px;
+  }
+  .policyTerms{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+  }
+  .listWrapper{
+    text-align: left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.108px;
+  }
+  .policyImg{
+    margin-top: 50px;
+    width: 80%;
+    background-image: url('/public/Images/VectorMobile.png');
+    background-repeat: no-repeat;
+    background-position: 20px 0px;
+    /* border: 3px solid white; */
+    margin-bottom: 80px;
+  }
+  .manLock{
+    margin-top: 95px;
+    width: 85%;
+  }
+}

@@ -1,0 +1,195 @@
+.seventhPart{
+  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
+  display: flex;
+  height: 100%;
+  background-blend-mode: hard-light;
+  background-color: #150E28;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.trophyImg{
+  width: 100%;
+  /* height: 100%; */
+}
+.trophyImg2{
+  display: none;
+}
+.prizesNote{
+  width: 400px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 27.344px */
+}
+.trophy{ 
+  /* border: 3px solid green; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  /* border: 3px solid green; */
+}
+.trophyTrack{
+  /* border: 3px solid white; */
+  width: 85%;
+}
+.prizeRunner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+.prizeRunner1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.prizeMoney{
+  color: #D434FE;
+}
+.prizeMoney1{
+  color: #903AFF;
+}
+.prizes{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 60%;
+}
+.rewards{
+  margin-top: 150px;
+  width: 90%;
+  /* height: 800px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.runner h1{
+  font-size: 36px;
+}
+.runner p{
+  font-size: 24px;
+}
+.firstWinner{
+  border-radius: 8px;
+  border: 1px solid #903AFF;
+  background: rgba(144, 58, 255, 0.12);
+  width: 200px;
+  position: relative;
+  height: 347px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 216.4%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+.secondWinner{
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  justify-content: flex-end;
+  border: 1px solid #D434FE;
+  background: rgba(212, 52, 254, 0.12);
+  width: 200px;
+  height: 296px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 216.4%; */
+}
+.secondPrize{
+  position: absolute;
+  top: -80px;
+  left: 15px;
+}
+.firstPrize{
+  /* width: 260px; */
+  position: absolute;
+  top: -160px;
+  left: -45px;
+}
+@media only screen and (max-width: 700px){
+  .seventhPart{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .trophyImg2{
+    display: block;
+    width: 100%;
+  }
+  .trophy{
+    display: none;
+  }
+  .prizes{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 120px;
+    gap: 50px;
+  }
+  .rewards{
+    margin-top: 100px;
+    gap: 15px;
+  }
+  .prize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prizesNote{
+    width: 80%;
+    font-size: 12px;
+  }
+  .secondWinner{
+    width: 90.007px;
+    height: 125.671px;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .runner h1{
+    font-size: 12px;
+  }
+  .runner p{
+    font-size: 12px;
+  }
+  .firstWinner{
+    width: 90.007px;
+    height: 147.323px;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .firstPrize{
+    width: 150px;
+    top: -100px;
+    left: -30px;
+  }
+  .secondPrize{
+    width: 100px;
+    top: -60px;
+    left: -7px;
+  }
+  .prizeRunner1{
+    gap: 20px;
+  }
+}

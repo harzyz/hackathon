@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './navbar.css'
 
 function Navbar({styleContact}) {
   const [bgBtn, setBgBtn] = useState(false)
@@ -12,7 +13,7 @@ function Navbar({styleContact}) {
 
   return (
     <nav className="header">
-      <Link to='/'><h1>get<span className="linked">linked</span></h1></Link>
+      <Link to='/'><div className='brand'>get<span className="linked">linked</span></div></Link>
       <div className="navbar">
         <a href="#timeline"><p>Timeline</p></a>
         <a href="#overview"><p>Overview</p></a>
