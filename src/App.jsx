@@ -5,7 +5,7 @@ import RegisterPage from './components/RegisterPage'
 // import Footer from './components/Footer'
 import ContactPage from './components/ContactPage'
 import Navbar from './components/Navbar'
-import Virtualglasses from './components/virtualglasses';
+import Virtualglasses from './components/Virtualglasses';
 import Thebigidea from './components/Thebigidea';
 import Rulesandpolicy from './components/Rulesandpolicy';
 import Judgingcriteria from './components/Judgingcriteria';

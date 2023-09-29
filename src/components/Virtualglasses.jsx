@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import img01 from '../../public/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png'
 import img02 from '../../public/Images/Creative 1.png'
 import img03 from '../../public/Images/chain-9365116-7621444.png'
@@ -14,14 +14,13 @@ function Virtualglasses() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   const targetDate = new Date('2023-11-18T00:00:00');
-  const intervalRef = useRef(null);
-
+  
   const calculateTimeRemaining = () => {
     const now = new Date();
     const timeDifference = targetDate - now;
 
     if (timeDifference <= 0) {
-      clearInterval(intervalRef.current);
+      clearInterval();
       return { days: 0, hours: 0, minutes: 0, seconds: 0 };
     }
 
@@ -34,11 +33,11 @@ function Virtualglasses() {
   };
 
   useEffect(() => {
-    intervalRef.current = setInterval(() => {
+    const interval = setInterval(() => {
       setCountdown(calculateTimeRemaining());
     }, 1000);
 
-    return () => clearInterval(intervalRef.current);
+    return () => clearInterval(interval);
   }, []);
 
 
