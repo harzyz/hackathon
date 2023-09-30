@@ -1,14 +1,24 @@
 import './judgingcriteria.css'
 import listData from "./data/data"
 import img01 from '../../public/Images/8046554 1.png'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
+import star3 from '../../public/Images/starReg.png'
 
 function Judgingcriteria() {
   return (
     <div>
       <div className="line"></div>
       <div className="fourthPart">
+        <img className='starPurpleJ' src={star1} alt="" />
+        <img className='starWhiteJ' src={star2} alt="" />
+        <img className='starBlurJ' src={star3} alt="" />
+        <div className='glare5th'></div>
+        <div className='glare6th'></div>
         <div className="humanAnalysis">
-          <img className='judges' src={img01}alt="" />
+          <span className='jusdesWrapper'>
+            <img className='judges' src={img01}alt="" />
+          </span>
         </div>
         <div className="judgingCriteria">
           <span className='criteriaContainer'>

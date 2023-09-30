@@ -1,17 +1,67 @@
 .seventhPart{
-  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
   display: flex;
   height: 100%;
-  background-blend-mode: hard-light;
-  background-color: #150E28;
-  background-repeat: no-repeat;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.glareP{
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  width: 250px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.glareP1{
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  width: 180px;
+  height: 350px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.starPurpleP{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 1.5%;
+}
+.starWhiteP{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 1.5%;
+}
+.starWhiteP1{
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  width: 1.5%;
+}
+.starWhiteP2{
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  width: 1%;
+}
+.starBlurP{
+  position: absolute;
+  bottom: 5%;
+  right: 20.5%;
+  width: 1.5%;
 }
 .trophyImg{
   width: 100%;
+  z-index: 10;
   /* height: 100%; */
 }
-.trophyImg2{
+.trophyTrack2{
   display: none;
 }
 .prizesNote{
@@ -33,7 +83,10 @@
 }
 .trophyTrack{
   /* border: 3px solid white; */
-  width: 85%;
+  /* width: 85%; */
+  position: absolute;
+  top: 20%;
+  left: 3%;
 }
 .prizeRunner{
   display: flex;
@@ -133,11 +186,61 @@
   .seventhPart{
     flex-direction: column;
     width: 100%;
+    padding-bottom: 0;
     align-items: center;
   }
+  .glareP{
+    top: 15%;
+    left: 15%;
+    width: 100px;
+    height: 100px;
+    --tw-blur: blur(64px);
+  }
+  .glareP1{
+    bottom: 11%;
+    right: 0;
+    width: 80px;
+    height: 200px;
+    --tw-blur: blur(84px)
+  }
+  .starPurpleP{
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    width: 2%;
+  }
+  .starWhiteP{
+    position: absolute;
+    top: 10%;
+    left: 71%;
+    width: 2%;
+  }
+  .starWhiteP1{
+    position: absolute;
+    top: 63%;
+    right: 12%;
+    width: 3%;
+  }
+  .starWhiteP2{
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+    width: 3%;
+  }
+  .starBlurP{
+    position: absolute;
+    bottom: 7%;
+    right: 35%;
+    width: 3%;
+  }
   .trophyImg2{
+    /* display: block; */
+    width:85%;
+    z-index: 10;
+  }
+  .trophyTrack2{
     display: block;
-    width: 100%;
+    z-index: 10;
   }
   .trophy{
     display: none;
@@ -180,14 +283,14 @@
     padding-bottom: 20px;
   }
   .firstPrize{
-    width: 150px;
-    top: -100px;
-    left: -30px;
+    width: 130px;
+    top: -80px;
+    left: -20px;
   }
   .secondPrize{
-    width: 100px;
-    top: -60px;
-    left: -7px;
+    width: 80px;
+    top: -35px;
+    left: 5px;
   }
   .prizeRunner1{
     gap: 20px;

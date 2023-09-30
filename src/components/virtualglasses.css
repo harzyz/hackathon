@@ -1,6 +1,35 @@
-.wrapper{
+.wrapper1{
   width: 100%;
   height: 100%;
+  position: relative;
+  background-color: #150E28;
+}
+.glareImg1{
+  width: 80%;
+  filter: hue-rotate(350deg);
+}
+.glared{
+  position: absolute;
+  top: -40px;
+  left: 250px;
+  width: 250px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.glared1{
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  right: 10%;
+  width: 250px;
+  height: 250px;
+  background-color: #D434FE;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(184px);
 }
 .revoText{
   width: 100%;
@@ -10,6 +39,7 @@
   text-align: right;
   font-weight: 700;
   margin-top: 30px;
+  background-color: #150E28;
 }
 .topPart{
   height: 100%;
@@ -17,11 +47,22 @@
   display: flex;
 }
 .firstHalf{
+  background-color: #150E28;
   width: 50%;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.starWhite{
+  position: absolute;
+  top: 50px;
+  left: 140px;
+}
+.starBlur{
+  position: absolute;
+  bottom: 120px;
+  left: 500px;
 }
 .creative{
   position: absolute;
@@ -88,14 +129,17 @@
   display: flex;
   align-items: baseline;
 }
+.countdown-item p{
+  font-size: 14px;
+}
 .secondHalf{
   margin-top: 30px;
   height: 100%;
   width: 50%;
   /* background-size: cover; */
   position: relative;
-  background-color: #150E28;
-  background-blend-mode: hard-light;
+  /* background-color: #150E28; */
+  /* background-blend-mode: hard-light; */
   /* background-image: url('/public/Images/forFourthPart2.png'); */
   background-position: 50px -400px;
   background-repeat: no-repeat;
@@ -109,14 +153,15 @@
   left: 0;
 }
 .glare{
-  z-index: 6;
+  z-index: 1;
   position: absolute;
-  top: 0px;
+  filter: hue-rotate(350deg);
+  top: -200px;
   /* background-color: rgb(21, 14, 40, 0.4); */
   /* background-blend-mode: hard-light; */
   /* margin-top: -5px; */
-  width: 80%;
-  right: 0px;
+  width: 90%;
+  left: 65px;
 }
 .manIndex{
   z-index: 0;
@@ -132,9 +177,9 @@
 .picIndex{
   z-index: 3;
   position: absolute;
-  top: 20px;
+  top: -20px;
   width: 80%;
-  left: 0;
+  left: 35px;
 }
 .metrix{
   z-index: 3;
@@ -161,6 +206,48 @@
     line-height: normal;
     text-align: center;
     justify-content: center;
+  }
+  .glared{
+    /* transform: rotate(-90deg); */
+    top: 20px;
+    left: 50px;
+    width: 150px;
+    height: 200px;
+    --tw-blur: blur(84px)
+  }
+  .glared1{
+    /* display: none; */
+    position: absolute;
+    top: 52%;
+    z-index: 1;
+    right: 18%;
+    width: 150px;
+    height: 150px;
+    background-color: #D434FE;
+    border-radius: 50%;
+    filter: var(--tw-blur);
+    --tw-blur: blur(104px);
+  }
+  .glare{
+    display: none;
+    top: -200px;
+    width: 80%;
+    left: 65px;
+  }
+  .starWhite{
+    width: 3%;
+    top: 50px;
+    left: 120px;
+  }
+  .starBlur{
+    width: 2%;
+    top: 45px;
+    left: 320px;
+  }
+  .starFirstPart{
+    width: 2%;
+    top: -145px;
+    left: 270px;
   }
   .revoStroke{
     display: flex;

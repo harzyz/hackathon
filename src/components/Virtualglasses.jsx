@@ -5,9 +5,12 @@ import img02 from '../../public/Images/Creative 1.png'
 import img03 from '../../public/Images/chain-9365116-7621444.png'
 import img04 from '../../public/Images/globe.png'
 import img05 from '../../public/Images/metrix 1.png'
-import img06 from '../../public/Images/glareVirtual.png'
+// import img06 from '../../public/Images/glare1st.png'
+// import img07 from '../../public/Images/glare2nd.png'
+// import img06 from '../../public/Images/glareVirtual.png'
 import img22 from '../../public/Images/lit.png'
-import img23 from '../../public/Images/starReg.png'
+import star1 from '../../public/Images/starReg.png'
+import star2 from '../../public/Images/starWhite.png'
 import './virtualglasses.css'
 
 function Virtualglasses() {
@@ -43,7 +46,9 @@ function Virtualglasses() {
 
   return (
     <div>
-      <div className="wrapper">
+      <div className="wrapper1">
+        <div className="glared"></div>
+        <div className="glared1"></div>
         <div className="revoText">
           <span>
             <div>Igniting a Revolution in HR Innovation</div>
@@ -55,6 +60,8 @@ function Virtualglasses() {
           </span>
         </div>
         <div className="topPart">
+          <img className='starWhite' src={star2} alt="" />
+          <img className='starBlur' src={star1} alt="" />
           <div className="firstHalf">
             <span className="holding">
               <div className="subTitle1">
@@ -95,12 +102,12 @@ function Virtualglasses() {
             </span>
           </div>
             <div className="secondHalf">
-              <img src={img06} alt="" className="glare" />
+              {/* <img src={img07} alt="" className="glare" /> */}
               <img className="lit" src={img22} alt="" />
               <img className="manIndex" src={img01} alt="" />
               <img className="picIndex" src={img04} alt="" />
               <img className="metrix" src={img05} alt="" />
-              <img className="starFirstPart" src={img23} alt="" />
+              <img className="starFirstPart" src={star1} alt="" />
             </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 .secondPart{
+  position: relative;
   width: 100%;
   display: flex;
 }
@@ -14,7 +15,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 .introducionText p{
   font-size: 14px;
@@ -33,6 +34,24 @@
 .line{
   border: 1px solid #ffffff2e;
   width: 99.8%;
+}
+.arrow{
+  position: absolute;
+  /* width: 50px;
+  height: 50px; */
+  top: 500px;
+  left: 520px;
+}
+.starPurple{
+  position: absolute;
+  top: 220px;
+  right: 170px;
+}
+.starPurple1{
+  position: absolute;
+  width: 1.5%;
+  top: 225px;
+  left: 80px;
 }
 .participateNote2{
   color: #FFF;
@@ -57,15 +76,31 @@
   .bigIdea{
     width: 90%;
   }
+  .arrow{
+    top: 350px;
+    left: 150px;
+  }
   .introducionText{
     margin: 0;
     width: 100%;
+    align-items: center;
     text-align: center;
   }
   .introducionText p{
     text-align: center;
     width: 100%;
     max-width: 300px;
-    line-height: 27.5px
+    line-height: 27.5px;
+    padding-bottom: 80px;
+  }
+  .starPurple{
+    width: 3%;
+    top: 450px;
+    right: 50px;
+  }
+  .starPurple1{
+    width: 3%;
+    top: 150px;
+    left: 40px;
   }
 }

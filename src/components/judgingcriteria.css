@@ -1,26 +1,62 @@
 .fourthPart{
   width: 100%;
+  position: relative;
   display: flex;
   height: 100%;
   align-items: center;
 }
+.glare5th{
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.glare6th{
+  position: absolute;
+  bottom: -20px;
+  right: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.starPurpleJ{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 2%;
+}
+.starWhiteJ{
+  position: absolute;
+  bottom: 80px;
+  left: 650px;
+}
+.starBlurJ{
+  position: absolute;
+  top: 450px;
+  left: 380px;
+}
 .humanAnalysis{
-  background-image: url('/public/Images/forFourthPart.png');
-  background-repeat: no-repeat;
-  background-color: #150E28;
-  background-blend-mode: hard-light;
   display: flex;
   justify-content: center;
   width: 50%;
-  margin-top: 200px;
+  margin-top: 100px;
+}
+.jusdesWrapper{
+  width: 80%;
+}
+.judges{
+  width: 100%;
 }
 .judgingCriteria{
-  background-image: url('/public/Images/forFourthPart2.png');
-  background-position: 200px 200px;
-  background-color: #150E28;
-  background-blend-mode: hard-light;
-  background-repeat: no-repeat;
-  margin-top: 80px;
+  margin: 80px 0;
   display: flex;
   justify-content: center;
   width: 50%;
@@ -59,6 +95,31 @@
   .listItem{
     width: 100%;
   }
-  
-
+  .glare5th{
+    top: 200px;
+    left: 50px;
+    width: 150px;
+  }
+  .glare6th{
+    bottom: 20px;
+    right: 0px;
+    width: 150px;
+    height: 200px;
+    --tw-blur: blur(84px);
+  }
+  .starPurpleJ{
+    width: 3%;
+    top: 20px;
+    left: 150px;
+  }
+  .starBlurJ{
+    width: 3%;
+    top: 230px;
+    left: 200px;
+  }
+  .starWhiteJ{
+    bottom: 95px;
+    left: 300px;
+    width: 3%;
+  }
 }

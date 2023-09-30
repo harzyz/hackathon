@@ -2,10 +2,51 @@
   /* margin-top: 300px; */
   width: 100%;
   display: flex;
+  position: relative;
   gap: 30px;
-  padding-bottom: 80px;
+  padding: 120px 0;
   flex-direction: column;
   align-items: center;
+}
+.starPurpleS{
+  position: absolute;
+  top: 14%;
+  left: 11.5%;
+  width: 1.5%;
+}
+.glareS{
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  width: 380px;
+  height: 350px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.glareS1{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 180px;
+  height: 350px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.starPurpleS1{
+  position: absolute;
+  top: 32%;
+  left: 56.5%;
+  width: 1.5%;
+}
+.starWhiteS{
+  position: absolute;
+  bottom: 21%;
+  left: 56.5%;
+  width: 1.5%;
 }
 .sponsors{
   display: flex;
@@ -69,6 +110,39 @@
 @media only screen and (max-width: 700px){
   .eightPart{
     width: 100%;
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+  .starPurpleS{
+    position: absolute;
+    top: 33%;
+    left: 11.5%;
+    width: 2.5%;
+  }
+  .starPurpleS1{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    width: 2%;
+  }
+  .starWhiteS{
+    position: absolute;
+    bottom: 33%;
+    left: 78%;
+    width: 3%;
+  }
+  .glareS{
+    top: -7%;
+    width: 100px;
+    height: 100px;
+    --tw-blur: blur(64px)
+  }
+  .glareS1{
+    /* top: -7%; */
+    bottom: -8%;
+    width: 120px;
+    height: 120px;
+    --tw-blur: blur(64px)
   }
   .sporsorsLogo{
     width: 68px;

@@ -3,10 +3,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   padding-bottom: 80px;
 }
 .timelineGridMobile{
   display: none;
+}
+.starPurpleT{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 1.5%;
+}
+.starWhiteT{
+  position: absolute;
+  top: 48%;
+  right: 18%;
+  width: 1.5%;
+}
+.starBlurT{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  width: 1.5%;
 }
 .participateNote3{
   color: #FFF;
@@ -115,6 +134,24 @@
 @media only screen and (max-width: 900px){
   .sixthPart{
     width: 100%;
+  }
+  .starPurpleT{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 3%;
+  }
+  .starWhiteT{
+    position: absolute;
+    top: 48%;
+    right: 18%;
+    width: 3%;
+  }
+  .starBlurT{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 3%;
   }
   .timelineGrid{
     display: none;

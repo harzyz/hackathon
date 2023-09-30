@@ -1,9 +1,34 @@
 .footer{
-  background: #150E28;
+  /* background: #150E28; */
   width: 100%;
   height: 400px;
   display: flex;
   align-items: center;
+  position: relative;
+}
+.starPurpleQ{
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  width: 1.5%;
+}
+.starWhiteQ{
+  position: absolute;
+  top: 37%;
+  left: 4.5%;
+  width: 1%;
+}
+.starWhiteQ1{
+  position: absolute;
+  bottom: 25%;
+  right: 8%;
+  width: 1%;
+}
+.starBlurQ{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  width: 1%;
 }
 .description{
   width: 50%;
@@ -88,6 +113,30 @@
     align-items: center;
     padding-bottom: 100px;
     gap: 30px;
+  }
+  .starPurpleQ{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    width: 2.5%;
+  }
+  .starWhiteQ{
+    position: absolute;
+    top: 37%;
+    left: 4.5%;
+    width: 3%;
+  }
+  .starWhiteQ1{
+    position: absolute;
+    bottom: 25%;
+    right: 8%;
+    width: 3%;
+  }
+  .starBlurQ{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 2.5%;
   }
   .footerBrand{
     font-size: 20px;

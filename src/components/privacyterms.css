@@ -2,7 +2,61 @@
   padding-top: 80px;
   display: flex;
   width: 100%;
+  position: relative;
   justify-content: space-around;
+}
+.glareW{
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+  width: 280px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.starPurpleW{
+  position: absolute;
+  bottom: 25%;
+  left: 4.5%;
+  width: 1.5%;
+}
+.starPurpleW1{
+  position: absolute;
+  bottom: 30%;
+  left: 70%;
+  width: 1%;
+}
+.starPurpleW2{
+  position: absolute;
+  top: 27%;
+  left: 45%;
+  width: 1%;
+}
+.starWhiteW{
+  position: absolute;
+  top: 25%;
+  right: 9%;
+  width: 1%;
+}
+.starWhiteW1{
+  position: absolute;
+  bottom: 22%;
+  right: 32%;
+  width: 1%;
+}
+.starBlurW{
+  position: absolute;
+  top: 14%;
+  left: 31%;
+  width: 1.5%;
+}
+.starBlurW1{
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  width: 1.5%;
 }
 .policy{
   padding-left: 40px;
@@ -37,7 +91,7 @@
 .policyHead{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .privacyNote{
   color: #FFF;
@@ -52,7 +106,7 @@
   width: 80%;
 }
 .policyTerms{
-  margin-top: 20px;
+  margin-top: 50px;
   width: 80%;
   display: flex;
   align-items: center;
@@ -78,7 +132,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 33.2px;
-  /* list-style: square inside url("/public/Images/listTerms.png"); */
   width: 100%;
   margin: 0 auto;
 }
@@ -102,8 +155,8 @@
   background-repeat: no-repeat;
 }
 .manLock{
-  margin-top: 200px;
-  width: 100%;
+  margin-top: 270px;
+  width: 80%;
 }
 @media only screen and (max-width: 700px){
   .lastPart{
@@ -111,6 +164,65 @@
     height: 100%;
     align-items: center;
     width: 100%;
+  }
+  .glareW{
+    top: 49%;
+    left: 0%;
+    width: 120px;
+    height: 180px;
+    --tw-blur: blur(64px); 
+  }
+  .glareW1{
+    bottom: 10%;
+    position: absolute;
+    left: 0%;
+    background-color: #903AFF;
+    filter: var(--tw-blur);
+    width: 350px;
+    height: 80px;
+    --tw-blur: blur(168px); 
+  }
+  .starPurpleW{
+    position: absolute;
+    bottom: 25%;
+    left: 4.5%;
+    width: 2.5%;
+  }
+  .starPurpleW1{
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+    width: 2.5%;
+  }
+  .starPurpleW2{
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    width: 3%;
+  }
+  .starWhiteW{
+    position: absolute;
+    top: 50%;
+    right: 92%;
+    width: 4%;
+  }
+  .starWhiteW1{
+    position: absolute;
+    bottom: 9%;
+    left: 20%;
+    width: 2.5%;
+  }
+  .starBlurW{
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    width: 3%;
+  }
+  .starBlurW1{
+    position: absolute;
+    bottom: 8%;
+    right: 20%;
+    width: 2.5%;
   }
   .policy{
     width: 100%;

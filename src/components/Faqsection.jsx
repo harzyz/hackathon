@@ -1,12 +1,20 @@
 import './faqsection.css'
 import img01 from '../../public/Images/plusIcon.png'
 import img02 from '../../public/Images/overThinker.png'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
+import star3 from '../../public/Images/starReg.png'
 
 function Faqsection() {
   return (
     <div>
       <div className="line mb2"></div>
       <div className="fifthPart">
+        <img className='starPurpleF' src={star1} alt="" />
+        <img className='starPurpleF1' src={star1} alt="" />
+        <img className='starPurpleF2' src={star1} alt="" />
+        <img className='starWhiteF' src={star2} alt="" />
+        <img className='starBlurF' src={star3} alt="" />
         <div className="faQsContainer">
           <div className="faQs">
             <div className='subHeader'>
@@ -28,7 +36,7 @@ function Faqsection() {
               </span>
               <div className="lined"></div>
               <span className="frequently">
-                <p>What happens if I don't have an idea for a project?</p>
+                <p>What happens if I don&apos;t have an idea for a project?</p>
                 <img src={img01} alt="" />
               </span>
               <div className="lined"></div>

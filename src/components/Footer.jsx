@@ -6,11 +6,18 @@ import img03 from '../../public/Images/meta.png'
 import img04 from '../../public/Images/linkedin.png'
 import img05 from '../../public/Images/tel.png'
 import img06 from '../../public/Images/locate.png'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
+import star3 from '../../public/Images/starReg.png'
 
 function Footer() {
   return (
     <div className='mb9'>
       <div className="footer">
+        <img className='starPurpleQ' src={star1} alt="" />
+        <img className='starWhiteQ' src={star2} alt="" />
+        <img className='starWhiteQ1' src={star2} alt="" />
+        <img className='starBlurQ' src={star3} alt="" />
         <div className="description">
           <span className="descContainer">
             <span>

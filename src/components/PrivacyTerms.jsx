@@ -1,12 +1,24 @@
 import './privacyterms.css'
 import img01 from '../../public/Images/manWithLock.png'
 import img02 from '../../public/Images/listTerms.png'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
+import star3 from '../../public/Images/starReg.png'
 
 function PrivacyTerms() {
   return (
     <div>
       <div className="line"></div>
       <div className="lastPart">
+        <div className="glareW"></div>
+        <div className="glareW1"></div>
+        <img className='starPurpleW' src={star1} alt="" />
+        <img className='starPurpleW1' src={star1} alt="" />
+        <img className='starPurpleW2' src={star1} alt="" />
+        <img className='starWhiteW' src={star2} alt="" />
+        <img className='starWhiteW1' src={star2} alt="" />
+        <img className='starBlurW' src={star3} alt="" />
+        <img className='starBlurW1' src={star3} alt="" />
         <div className="policy">
           <div className="policyWrapper">
             <span className='policyHead'>
@@ -15,7 +27,7 @@ function PrivacyTerms() {
                 <h1 className="subTitle3 linked" >Terms</h1>
               </span>
               <p className="lastUpd">Last updated on September 12, 2023</p>
-              <p className="privacyNote">Below are our privacy & policy, which outline a lot of goodies. it’s our aim to always take of our participant</p>
+              <p className="privacyNote">Below are our privacy & policy, which outline a lot of goodies. it&apos;s our aim to always take of our participant</p>
             </span>
             <div className="policyTerms">
               <span className="policyContainer">

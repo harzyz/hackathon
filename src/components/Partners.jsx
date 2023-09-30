@@ -11,11 +11,18 @@ import img09 from '../../public/Images/WinwiseMobile.png'
 import img10 from '../../public/Images/wisperMobile.png'
 import img11 from '../../public/Images/PayboxMobile.png'
 import img12 from '../../public/Images/VuzualPlusMobile.png'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
 
 function Partners() {
   return (
     <div>
       <div className="eightPart">
+        <div className="glareS"></div>
+        <div className="glareS1"></div>
+        <img className='starPurpleS' src={star1} alt="" />
+        <img className='starPurpleS1' src={star1} alt="" />
+        <img className='starWhiteS' src={star2} alt="" />
         <h1 className="subTitle3" >Partners and Sponsors</h1>
         <p className="partnersNote">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
         <div className="sponsors">

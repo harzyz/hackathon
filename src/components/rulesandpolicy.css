@@ -1,10 +1,49 @@
 .thirdPart{
+  position: relative;
   width: 100%;
   height: 100%;
-  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
   display: flex;
+  /* background-image: url('/public/Images/Purple-Lens-Flare-PNG.png'); */
   background-blend-mode: hard-light;
   background-color: #150E28;
+}
+/* --tw-blur: blur(64px); */
+.glare3rd{
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  width: 250px;
+  height: 250px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.glare3rd2{
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  width: 130px;
+  height: 450px;
+  background-color: #903AFF;
+  border-radius: 50%;
+  filter: var(--tw-blur);
+  --tw-blur: blur(124px);
+}
+.starBlur2{
+  width: 1.5%;
+  top: 120px;
+  left: 370px;
+  position: absolute;
+}
+.starWhite2{
+  width: 1.5%;
+  top: 420px;
+  left: 670px;
+  position: absolute;
+}
+.starWhite3{
+  display: none;
 }
 .introducionText2{
   /* border: 3px solid red; */
@@ -51,6 +90,7 @@
   .introducionText2 p{
     text-align: center;
     width: 100%;
+    padding-bottom: 80px;
     /* max-width: 400px; */
     line-height: 27.5px;
     /* border: 3px solid red; */
@@ -60,5 +100,34 @@
   }
   .intro2Container{
     width: 80%;
+  }
+  .glare3rd{
+    width: 100px;
+    height: 200px;
+    top: 0;
+    left: 50px;
+    --tw-blur: blur(64px);
+  }
+  .glare3rd2{
+    top: 270px;
+    right: 0px;
+    height: 200px;
+    --tw-blur: blur(64px);
+  }
+  .starBlur2{
+    width: 3%;
+    top: 350px;
+    left: 300px;
+  }
+  .starWhite2{
+    top: 170px;
+    left: 40px;
+  }
+  .starWhite3{
+    display: block;
+    width: 3%;
+    position: absolute;
+    bottom: 40px;
+    left: 120px;
   }
 }

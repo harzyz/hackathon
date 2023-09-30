@@ -5,13 +5,41 @@
   margin: 0;
   padding: 0;
 }
+*{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+  background-color: white !important;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0px !important;
+  background-color: whitesmoke !important;
+  border-radius: 0px !important;
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 0px !important;
+  background-color: white !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 0px !important;
+  background-color: whitesmoke !important;
+  border-radius: 0px;
+}
 .wrapper{
   height: 100%;
   color: #FFF;
   width: 100%
 }
 .container{
-  background-image: url('/public/Images/Purple-Lens-Flare-PNG.png');
+  /* background-image: url('/public/Images/Purple-Lens-Flare-PNG.png'); */
   background-blend-mode: hard-light;
   background-position: -155.25px -155px;
   background-color: #150E28;
@@ -54,7 +82,7 @@
   width: 100%;
   display: flex;
   height: 100%;
-  background-image: url('/public/Images/forFourthPart.png');
+  /* background-image: url('/public/Images/forFourthPart.png'); */
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;
@@ -88,7 +116,7 @@
   height: 100%;
   margin-bottom: 100px;
   /* border: 3px solid green; */
-  background-image: url('/public/Images/forFourthPart.png');
+  /* background-image: url('/public/Images/forFourthPart.png'); */
   background-repeat: no-repeat;
   background-color: #150E28;
   background-blend-mode: hard-light;

@@ -1,10 +1,16 @@
 import './timeline.css'
+import star1 from '../../public/Images/starPurple.png'
+import star2 from '../../public/Images/starWhite.png'
+import star3 from '../../public/Images/starReg.png'
 
 function Timeline() {
   return (
     <div>
       <div className="line mb3"></div>
       <div className="sixthPart">
+        <img className='starPurpleT' src={star1} alt="" />
+        <img className='starWhiteT' src={star2} alt="" />
+        <img className='starBlurT' src={star3} alt="" />
         <h1 className="subTitle3" id="timeline" >Timeline</h1>
         <p className="timelineNote mb3">Here is the breakdown of the time we anticipate  using for the upcoming event..</p>
         <div className="timelineGrid">
