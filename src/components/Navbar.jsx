@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import closeIcon from '../../public/Images/close.png'
+import exs from '../../public/Images/close.png'
 import './navbar.css'
 
 function Navbar({styleContact}) {
@@ -46,7 +46,7 @@ function Navbar({styleContact}) {
             </linearGradient>
           </defs>
         </svg>
-        <img className='closeImg' src={closeIcon} alt="" />
+        <img className='closeImg' src={exs} alt="" />
         
         <ul className="hamburgerList">
           <li className="hamburgerListItem">Timeline</li>
