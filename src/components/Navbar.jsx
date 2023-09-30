@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import exs from '../../public/Images/close.png'
+import exs from '../../public/Images/Close.png'
 import './navbar.css'
 
 function Navbar({styleContact}) {
