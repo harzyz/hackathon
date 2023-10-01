@@ -46,6 +46,7 @@ function Virtualglasses() {
 
   return (
     <div>
+      <div className="line"></div>
       <div className="wrapper1">
         <div className="glared"></div>
         <div className="glared1"></div>

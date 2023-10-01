@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './registerpage.css'
 import img01 from '../../public/Images/regImg.png'
 import img02 from '../../public/Images/starReg2.png'
 import img03 from '../../public/Images/starReg3.png'
@@ -102,13 +103,13 @@ function RegisterPage() {
           <img className='starReg2' src={img02} alt="" />
           <img className='starReg3' src={img03} alt="" />
           <img className='starReg4' src={img04} alt="" />
-          <img width={'100%'} src={img01} alt="" />
+          <img width={'90%'} src={img01} alt="" />
         </div>
         <div className="regForm">
           <div className='formWrapper'>
             <img className='starReg' src={img04} alt="" />
             <div className="formContainer">
-              <h1 className="subTitle2 linked">Register</h1>
+              <h1 className="subTitle3 linked">Register</h1>
               <span className='movement'>
                 <p className='beTheMov'>Be part of this movement!</p>
                 <span className='movement2'>
@@ -173,7 +174,7 @@ function RegisterPage() {
                     </option>
                   ))}
                 </select>
-              </div>
+                </div>
                   <div className='formControl'>
                     <label>Group Size</label>
                     <select>
@@ -194,7 +195,7 @@ function RegisterPage() {
                     <span className="checkmark"></span>
                   </label>
                 </div>
-                <button type='submit' className='registerBtn bigBtn'>Register Now</button>
+                <span className='btnWrapperR'><button type='submit' className='registerBtnR'>Register Now</button></span>
               </form>
             </div>
           </div>

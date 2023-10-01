@@ -7,8 +7,8 @@ import './thebigidea.css'
 function Thebigidea() {
   return (
     <div>
-      <div className="line"></div>
       <div className="secondPart">
+      <div className="linepa"></div>
         <img src={star1} alt="" className="starPurple" />
         <img src={star1} alt="" className="starPurple1" />
         <img src={arrow} alt="" className="arrow" />

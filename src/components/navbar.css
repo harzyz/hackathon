@@ -8,6 +8,12 @@
   /* border: 3px solid green; */
   width: 100%;
 }
+.closeContainer{
+  display: none;
+}
+.closeImg{
+  display: none;
+}
 .hambugerMenu{
   display: none;
 }
@@ -75,9 +81,21 @@
     position: absolute;
     display: block;
   }
+  .closeContainer{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: 14px;
+    left: 83.1%;
+  }
   .closeImg{
-    width: 15px;
-    height: 15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 85%;
   }
   .close{
     border: 3px solid red;

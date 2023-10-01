@@ -31,7 +31,9 @@
 .linked{
   color: #D434FE;
 }
-.line{
+.linepa{
+  position: absolute;
+  top: -4px;
   border: 1px solid #ffffff2e;
   width: 99.8%;
 }

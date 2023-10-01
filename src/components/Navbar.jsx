@@ -11,24 +11,27 @@ function Navbar({styleContact}) {
     setBgBtn(true)
   }
   const handleClose = () => {
-    if(close === false){
-      setClose(true)
-    }else{
-      setClose(false)
-    }
+    setClose(!close)
+  }
+  const btnClose = () => {
+    setClose(false)
+  }
+  const handleBoth = () => {
+    handlebgBtn();
+    btnClose();
   }
   
   
 
   return (
     <nav className="header">
-      <Link to='/'><div className='brand'>get<span className="linked">linked</span></div></Link>
+      <Link to='/'><div onClick={btnClose} className='brand'>get<span className="linked">linked</span></div></Link>
       <div className="navbar">
         <a href="#timeline"><p>Timeline</p></a>
         <a href="#overview"><p>Overview</p></a>
         <p>FAQs</p>
         <Link to='/contact'><p className={styleContact ? 'contact' : ''}>Contact</p></Link>
-        <Link to='/register'><button onClick={handlebgBtn} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
+        <Link to='/register'><button onClick={[handlebgBtn]} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
       </div>
       <span onClick={handleClose} className="hamburger">
       <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
@@ -36,24 +39,25 @@ function Navbar({styleContact}) {
       </svg>
       </span>
       <div className={close ? 'hambugerMenu' : 'hambugerMenu1'}>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-          <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_181_74)"/>
-          <defs>
-            <linearGradient id="paint0_linear_181_74" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#903AFF"/>
-              <stop offset="1" stopColor="#FF26B9"/>
-            </linearGradient>
-          </defs>
-        </svg>
-        <img className='closeImg' src={exs} alt="" />
+        <span className="closeContainer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+            <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_181_74)"/>
+            <defs>
+              <linearGradient id="paint0_linear_181_74" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#903AFF"/>
+                <stop offset="1" stopColor="#FF26B9"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <img onClick={btnClose} className='closeImg' src={exs} alt="" />
         
         <ul className="hamburgerList">
           <li className="hamburgerListItem">Timeline</li>
           <li className="hamburgerListItem">Overview</li>
           <li className="hamburgerListItem">FaQs</li>
           <li className="hamburgerListItem">Contact</li>
-          <Link to='/register'><button onClick={handlebgBtn} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
+          <Link to='/register'><button onClick={handleBoth} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
         </ul>
       </div>
     </nav>
