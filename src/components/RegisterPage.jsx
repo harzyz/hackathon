@@ -98,6 +98,8 @@ function RegisterPage() {
 
   return (
     <div className='reg'>
+      <div className="glareR"></div>
+      <div className="glareR1"></div>
       <div className="registeration">
         <div className='regImg'>
           <img className='starReg2' src={img02} alt="" />
