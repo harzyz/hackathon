@@ -127,7 +127,7 @@
   .formTopic{
     width: 180px;
   }
-  .regForm{
+  .regFormC{
     position: relative;
     width: 100%;
     display: flex;
@@ -140,5 +140,8 @@
   }
   .contactForm input, select, textarea{
     width: 100%;
+  }
+  .header{
+    display: none;
   }
 }

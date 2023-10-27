@@ -5,11 +5,11 @@ import exs from '../../public/Images/Close.png'
 import './navbar.css'
 
 function Navbar({styleContact}) {
-  const [bgBtn, setBgBtn] = useState(false)
+  // const [bgBtn, setBgBtn] = useState(false)
   const [close, setClose] = useState(false)
-  const handlebgBtn = () => {
-    setBgBtn(true)
-  }
+  // const handlebgBtn = () => {
+  //   setBgBtn(true)
+  // }
   const handleClose = () => {
     setClose(!close)
   }
@@ -17,7 +17,7 @@ function Navbar({styleContact}) {
     setClose(false)
   }
   const handleBoth = () => {
-    handlebgBtn();
+    // handlebgBtn();
     btnClose();
   }
   
@@ -31,7 +31,7 @@ function Navbar({styleContact}) {
         <a href="#overview"><p>Overview</p></a>
         <p>FAQs</p>
         <Link to='/contact'><p className={styleContact ? 'contact' : ''}>Contact</p></Link>
-        <Link to='/register'><button onClick={[handlebgBtn]} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
+        <Link to='/register'><button className='registerBtn'>Register</button></Link>
       </div>
       <span onClick={handleClose} className="hamburger">
       <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
@@ -53,11 +53,11 @@ function Navbar({styleContact}) {
         <img onClick={btnClose} className='closeImg' src={exs} alt="" />
         
         <ul className="hamburgerList">
-          <li className="hamburgerListItem">Timeline</li>
-          <li className="hamburgerListItem">Overview</li>
-          <li className="hamburgerListItem">FaQs</li>
-          <li className="hamburgerListItem">Contact</li>
-          <Link to='/register'><button onClick={handleBoth} className={bgBtn ? 'bgBtn' : 'registerBtn'}>Register</button></Link>
+          <Link to='/'><li onClick={btnClose} className="hamburgerListItem"><a href="#timeline"><p>Timeline</p></a></li></Link>
+          <Link to='/'><li onClick={btnClose} className="hamburgerListItem"><a href="#overview"><p>Overview</p></a></li></Link>
+          <Link to='/'><li onClick={btnClose} className="hamburgerListItem"><a href="#faqs">FaQs</a></li></Link>
+          <li onClick={btnClose} className="hamburgerListItem"><Link to='/contact'><p className={styleContact ? 'contact' : ''}>Contact</p></Link></li>
+          <Link to='/register'><button onClick={handleBoth} className='registerBtn'>Register</button></Link>
         </ul>
       </div>
     </nav>

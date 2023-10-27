@@ -25,8 +25,8 @@ function App() {
       <div className="container">
       <Router> 
       <div>
-        <Navbar styleContact={styleContact} />
         {/* <div className="line"></div> */}
+        <Navbar styleContact={styleContact} />
         <Routes>
           <Route exact path="/" element={ 
             <>

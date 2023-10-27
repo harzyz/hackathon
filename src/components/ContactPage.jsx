@@ -4,6 +4,7 @@ import img01 from '../../public/Images/insta.png'
 import img02 from '../../public/Images/twitterX.png'
 import img03 from '../../public/Images/meta.png'
 import img04 from '../../public/Images/linkedin.png'
+import { Link } from "react-router-dom";
 
 function ContactPage() {
   const [formData, setFormData] = useState({
@@ -92,18 +93,20 @@ function ContactPage() {
         </div>
         <div className="regFormC">
           <div className="glareC"></div>
-          <span className="backIcon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-            <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)"/>
-            <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white"/>
-            <defs>
-            <linearGradient id="paint0_linear_177_298" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#903AFF"/>
-            <stop offset="1" stopColor="#FF26B9"/>
-            </linearGradient>
-            </defs>
-            </svg>
-          </span>
+          <Link to='/'>
+            <span className="backIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+              <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)"/>
+              <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white"/>
+              <defs>
+              <linearGradient id="paint0_linear_177_298" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#903AFF"/>
+              <stop offset="1" stopColor="#FF26B9"/>
+              </linearGradient>
+              </defs>
+              </svg>
+            </span>
+          </Link>
           <div className="contactFormWrapper">
             <div className="contactHead">
               <h3 className="formTopic linked">Questions or need assistance?</h3>

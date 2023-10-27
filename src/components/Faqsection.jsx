@@ -9,7 +9,7 @@ function Faqsection() {
   return (
     <div>
       <div className="line mb2"></div>
-      <div className="fifthPart">
+      <div id='faqs' className="fifthPart">
         <img className='starPurpleF' src={star1} alt="" />
         <img className='starPurpleF1' src={star1} alt="" />
         <img className='starPurpleF2' src={star1} alt="" />
