@@ -235,6 +235,7 @@
   }
   .regForm{
     margin-bottom: 0px;
+    width: 100%;
   }
   .formLayout{
     flex-direction: column;

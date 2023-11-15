@@ -180,7 +180,25 @@
   top: -20px;
   width: 80%;
   left: 35px;
+  animation-name: robo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate-reverse; */
+  animation-timing-function: linear;
+  /* transition: all 2s ease-in-out; */
 }
+@keyframes robo {
+  0% {transform: rotate(0deg)}
+  10% {transform: rotate(45deg)}
+  20% {transform: rotate(90deg)}
+  40% {transform: rotate(180deg)}
+  60% {transform: rotate(270deg)}
+  80% {transform: rotate(300deg)}
+  100% {transform: rotate(360deg);}
+}
+/* .picIndex:focus{
+  transform: rotate(90deg);
+} */
 .metrix{
   z-index: 3;
   position: absolute;
