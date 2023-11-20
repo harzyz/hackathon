@@ -16,7 +16,7 @@ import './virtualglasses.css'
 function Virtualglasses() {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
-  const targetDate = new Date('2023-11-18T00:00:00');
+  const targetDate = new Date('2023-12-25T00:00:00');
   
   const calculateTimeRemaining = () => {
     const now = new Date();

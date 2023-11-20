@@ -14,12 +14,12 @@
 .closeImg{
   display: none;
 }
-.hambugerMenu{
+/* .hambugerMenu{
   display: none;
-}
-.hamburgerList{
+} */
+/* .hamburgerList{
   display: none;
-}
+} */
 .brand{
   padding-top: 25px;
   font-family: Clash Display;
@@ -71,7 +71,8 @@
   }
   .hambugerMenu{
     width: 100%;
-    height: 400px;
+    max-height: 0px;
+    overflow: hidden;
     border-radius: 8px;
     border: 0.5px solid rgba(255, 255, 255, 0.04);
     background: #150E28;
@@ -81,6 +82,10 @@
     /* right: 70px; */
     position: absolute;
     display: block;
+    transition: max-height 0.5s;
+  }
+  .hambugerMenu.open{
+    max-height: 400px;
   }
   .closeContainer{
     display: block;
