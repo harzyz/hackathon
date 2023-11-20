@@ -6,7 +6,7 @@ import './navbar.css'
 
 function Navbar({styleContact}) {
   // const [bgBtn, setBgBtn] = useState(false)
-  const [close, setClose] = useState(false)
+  const [close, setClose] = useState(true)
   // const handlebgBtn = () => {
   //   setBgBtn(true)
   // }
